@@ -1,0 +1,153 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="https://cypherpunkdao.com/wp-content/uploads/2022/04/cropped-cypherpunkdao_logo_t_4_circular-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://cypherpunkdao.com/wp-content/uploads/2022/04/cropped-cypherpunkdao_logo_t_4_circular-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://cypherpunkdao.com/wp-content/uploads/2022/04/cropped-cypherpunkdao_logo_t_4_circular-180x180.png" />
+    <title>Citadel Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div,
+        iframe {
+            margin: 0 auto;
+        }
+
+        iframe {
+            display: block;
+            border-style: none;
+            margin-top: 80px;
+        }
+
+        body {
+            background: #121212;
+        }
+        .fondo {
+            background: #121212;
+        }
+
+
+
+
+
+
+
+
+input,
+div,
+span,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow-y: scroll;
+}
+.noscroll.active {
+    overflow-y: hidden;
+}
+
+/* Desktop Nav */
+.contenedor-navegacion {
+    height: 54px;
+    z-index: 300;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(31 41 55);
+    margin-right: 0px;
+}
+.contenedor-navegacion nav {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 8px;
+    height: 100%;
+}
+nav .navegacion-escritorio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 4px;
+}
+nav .navegacion-escritorio li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.enlace-logo {
+    background: url('cropped.png');
+    display: block;
+    background-position: center;
+    height: 38px;
+    width: 187px;
+    background-repeat: no-repeat;
+}
+
+/* Animación de navegación de escritorio */
+
+.navegacion-escritorio li {
+    transition: all 300ms ease-out;
+}
+
+.navegacion-escritorio.hide li {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+
+    </style>
+    
+</head>
+<body class="justify-center content-center noscroll">
+
+    <header class="contenedor-navegacion fondo">
+      <nav>
+        <ul class="navegacion-escritorio">
+          <li>
+            <a href="#" class="enlace-logo"></a>
+          </li>
+          <li>
+            <a href="#" class="link">Misión</a>
+          </li>
+          <li>
+            <a href="#" class="link">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="link">Votación</a>
+          </li>
+          <li>
+            <a href="#" class="link">Registro</a>
+          </li>
+          <li>
+            <a href="#" class="link">DAO</a>
+          </li>
+          <li>
+            <a href="#" class="link">Comunidad</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Fin de los elementos del menú de navegación -->
+      <div class="contenedor-buscador hide bg-slate-700 rounded">
+      </div>
+    </header>
+
+    <iframe src="https://gateway.ipfscdn.io/ipfs/QmUfp6thZQTmNKS6tzijJpxdoBe9X7spHwzRjUh3RPTAwF/token-drop.html?contract=0x00DABEa547Ea6174765fe494Ae7f94E61AaE5442&chainId=80001&theme=dark&primaryColor=green" width="540px;" height="540px" frameborder="0"></iframe>
+
+
+    </div>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+
+</html>
